@@ -115,8 +115,8 @@ button:hover {
 /* Footer styles */
 footer {
     text-align: center;
-    padding: 20px 10px;
-    background-color: #f0f0f0;
-    color: #333;
-    font-size: 14px;
+    padding-bottom: 15px;
+    background-color: #403f3f;
+    color: #0c81c0;
+    position: relative;
 }
