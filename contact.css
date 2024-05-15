@@ -1,27 +1,84 @@
-/* Basic reset for margins and padding */
-body, h1, h3 {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
 }
 
-
-
-
-/* Header styles */
-h1 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+header {
+    background: linear-gradient(to right, #0074D9, #0056b3);
+    color: #fff;
     text-align: center;
-    color: #000000; /* A soothing blue color for the title */
+    padding: 30px 20px;
 }
 
-/* Styling the contact details for better visibility */
-h3 {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    margin: 8px auto;
-    padding: 10px;
-    width: fit-content; /* Only as wide as the content requires */
+
+.navbar ul{
+   list-style-type: none;
+   background-color: #fdfdfd; 
+   overflow: hidden;
+   font-weight: 500;
+   padding: 10px;
+   text-align: center;
+   display: flex;
+  justify-content: center;
+ 
+}
+
+.navbar li{
+  color:#333 ;
+  padding: 10px 10px;
+  margin: 0 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  border-left: solid #0568ca;
+ 
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    margin: 15px;
+}
+.navbar a:hover {
+    color: #c61414;
+}
+.navbar li:hover{
+    background-color: #d9e0e991;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better legibility */
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #a1dff5;
+    border-radius: 8px;
+}   
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 127, 214);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #60a0e5;
+    margin: 8px auto;
+    padding: 20px;
+    width: fit-content; 
+    border-radius: 10px;
     text-align: center;
+    
 }
