@@ -75,7 +75,7 @@ Welcome to our Hospital Management Website, your one-stop solution for managing 
 
 ## Support
 For any issues or inquiries, please contact our support team:
-- **Email**: support@hospitalwebsite.com
+- **Email**: healthsphere@gmail.com
 - **Phone**: +1-234-567-890
 
 ## Conclusion
